@@ -1,8 +1,5 @@
-#
-# Convert a cardlist to a dictionary where entries look like:
-#   card name -> amount of cards with that name
-#
 def file_to_dict(file_name):
+    """Read decklist and create a dictionary of name->amount entries"""
     try:
         cards = dict()
         with open(file_name, 'r') as file:

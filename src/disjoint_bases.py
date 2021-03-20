@@ -2,7 +2,6 @@ from helpers import cardlist_sum_n
 
 def disjoint_bases(deck_dictionary, inventory):
     """Shows what cards can be kept as minimal base per decklist"""
-
     used_cards = cardlist_sum_n(list(deck_dictionary.values()))
     base_cards = { name: amount <= inventory.get(name, 0) for (name,amount) in used_cards.items() }
 

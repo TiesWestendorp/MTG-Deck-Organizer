@@ -2,7 +2,6 @@ from helpers import cardlist_sum_n, cardlist_leq
 
 def simultaneously_constructible(deck_dictionary, inventory):
     """Returns maximal lists of simultaneously constructible decks"""
-
     def maximal_sets(set, condition_function):
         def __maximal_sets(current, remaining, unused):
             if remaining == []:
