@@ -1,4 +1,4 @@
-from helpers import load_inventory, cardlist_union, cardlists_union_n, dict_to_file
+from helpers import load_inventory, cardlist_union, cardlist_union_n, dict_to_file
 
 def inventory_union_decklists(deck_dictionary):
     """Add the cards from decklists missing in inventory to inventory"""
