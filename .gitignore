@@ -1,0 +1,13 @@
+*
+!.gitignore
+!LICENSE
+!main.py
+!README.md
+!setup.py
+!src
+!src/**
+src/config/*
+!src/config/__init__.py
+
+*.pyc
+*.pyo
