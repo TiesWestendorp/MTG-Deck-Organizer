@@ -2,7 +2,7 @@
 # Convert a cardlist to a dictionary where entries look like:
 #   card name -> amount of cards with that name
 #
-def cardlist_to_dict(file_name):
+def file_to_dict(file_name):
     try:
         cards = dict()
         with open(file_name, 'r') as file:

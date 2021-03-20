@@ -1,5 +1,5 @@
-
 def cardlist_minus(cardlist1, cardlist2):
+    """Subtract two cardlist dictionaries"""
     for name, amount in cardlist2.items():
         if name in cardlist1:
             cardlist1[name] = cardlist1[name] - amount

@@ -1,9 +1,7 @@
 from copy import deepcopy
 
-#
-# Sum two cardlist dictionaries
-#
 def cardlist_sum(cardlist1, cardlist2):
+    """Sum two cardlist dictionaries"""
     cards = deepcopy(cardlist1)
     for name, amount in cardlist2.items():
         if name not in cards:
@@ -11,10 +9,8 @@ def cardlist_sum(cardlist1, cardlist2):
         cards[name] = cards[name] + amount
     return cards
 
-#
-# Sum n cardslist dictionaries
-#
 def cardlist_sum_n(cardlists):
+    """Sum n cardlist dictionaries"""
     if len(cardlists) == 0:
         return {}
     if len(cardlists) == 1:
