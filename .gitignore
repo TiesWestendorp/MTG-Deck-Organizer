@@ -1,13 +1,6 @@
-*
-!.gitignore
-!LICENSE
-!main.py
-!README.md
-!setup.py
-!src
-!src/**
-src/config/*
-!src/config/__init__.py
+commands/config/*
+!commands/config/__init__.py
 
+*.txt
 *.pyc
 *.pyo
